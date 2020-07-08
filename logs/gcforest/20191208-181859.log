@@ -1,0 +1,35 @@
+[ 2019-12-08 18:18:59,993][fgnet.fit_transform] X_train.shape=(774, 1, 358, 1), y_train.shape=(774,), X_test.shape=(87, 1, 358, 1), y_test.shape=(87,)
+[ 2019-12-08 18:18:59,993][fg_win_layer.fit_transform] [data][win1/1x7], bottoms=['X', 'y'], tops=['win1/1x7/ets', 'win1/1x7/rf']
+[ 2019-12-08 18:18:59,994][fg_win_layer.fit_transform] [progress][win1/1x7] ti=0/2, top_name=win1/1x7/ets
+[ 2019-12-08 18:18:59,994][fg_win_layer.fit_transform] [data][win1/1x7,train] bottoms.shape=774x1x358x1,774
+[ 2019-12-08 18:18:59,995][win_utils.get_windows] get_windows_start: X.shape=(774, 1, 358, 1), X_win.shape=(7, 272448), nw=1.0, nh=352.0, c=1, win_x=1, win_y=7, stride_x=1, stride_y=1
+[ 2019-12-08 18:19:00,156][win_utils.get_windows] get_windows_end
+[ 2019-12-08 18:19:00,158][fg_win_layer.fit_transform] [data][win1/1x7,test] bottoms.shape=87x1x358x1,87
+[ 2019-12-08 18:19:00,159][win_utils.get_windows] get_windows_start: X.shape=(87, 1, 358, 1), X_win.shape=(7, 30624), nw=1.0, nh=352.0, c=1, win_x=1, win_y=7, stride_x=1, stride_y=1
+[ 2019-12-08 18:19:00,263][win_utils.get_windows] get_windows_end
+[ 2019-12-08 18:19:00,982][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.train_0.predict)=67.77%
+[ 2019-12-08 18:19:00,984][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.train_0.avg)=66.80%
+[ 2019-12-08 18:19:01,812][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.train_1.predict)=68.11%
+[ 2019-12-08 18:19:01,814][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.train_1.avg)=67.05%
+[ 2019-12-08 18:19:02,521][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.train_2.predict)=67.72%
+[ 2019-12-08 18:19:02,523][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.train_2.avg)=66.54%
+[ 2019-12-08 18:19:02,633][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.train_cv.predict)=67.86%
+[ 2019-12-08 18:19:02,638][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.train_cv.avg)=66.80%
+[ 2019-12-08 18:19:02,639][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.test.predict)=75.42%
+[ 2019-12-08 18:19:02,640][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/ets/3_folds.test.avg)=72.41%
+[ 2019-12-08 18:19:02,640][fg_win_layer.fit_transform] [data][win1/1x7,train] tops[0].shape=(774, 2, 352, 1)
+[ 2019-12-08 18:19:02,640][fg_win_layer.fit_transform] [data][win1/1x7,test] tops[0].shape=(87, 2, 352, 1)
+[ 2019-12-08 18:19:02,640][fg_win_layer.fit_transform] [progress][win1/1x7] ti=1/2, top_name=win1/1x7/rf
+[ 2019-12-08 18:19:04,096][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.train_0.predict)=68.30%
+[ 2019-12-08 18:19:04,098][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.train_0.avg)=69.50%
+[ 2019-12-08 18:19:05,767][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.train_1.predict)=67.90%
+[ 2019-12-08 18:19:05,769][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.train_1.avg)=70.16%
+[ 2019-12-08 18:19:07,334][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.train_2.predict)=69.92%
+[ 2019-12-08 18:19:07,336][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.train_2.avg)=70.82%
+[ 2019-12-08 18:19:07,445][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.train_cv.predict)=68.70%
+[ 2019-12-08 18:19:07,450][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.train_cv.avg)=70.16%
+[ 2019-12-08 18:19:07,451][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.test.predict)=76.47%
+[ 2019-12-08 18:19:07,452][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x7/rf/3_folds.test.avg)=77.01%
+[ 2019-12-08 18:19:07,452][fg_win_layer.fit_transform] [data][win1/1x7,train] tops[1].shape=(774, 2, 352, 1)
+[ 2019-12-08 18:19:07,452][fg_win_layer.fit_transform] [data][win1/1x7,test] tops[1].shape=(87, 2, 352, 1)
+[ 2019-12-08 18:19:07,454][cascade_classifier.fit_transform] X_groups_train.shape=[(774, 2, 352, 1), (774, 2, 352, 1)],y_train.shape=(774,),X_groups_test.shape=[(87, 2, 352, 1), (87, 2, 352, 1)],y_test.shape=(87,)

@@ -1,0 +1,22 @@
+[ 2020-03-21 18:07:45,213][fgnet.fit_transform] X_train.shape=(774, 1, 317, 1), y_train.shape=(774,), X_test.shape=(87, 1, 317, 1), y_test.shape=(87,)
+[ 2020-03-21 18:07:45,213][fg_win_layer.fit_transform] [data][win1/1x100], bottoms=['X', 'y'], tops=['win1/1x100/ets', 'win1/1x100/rf']
+[ 2020-03-21 18:07:45,213][fg_win_layer.fit_transform] [progress][win1/1x100] ti=0/2, top_name=win1/1x100/ets
+[ 2020-03-21 18:07:45,213][fg_win_layer.fit_transform] [data][win1/1x100,train] bottoms.shape=774x1x317x1,774
+[ 2020-03-21 18:07:45,228][win_utils.get_windows] get_windows_start: X.shape=(774, 1, 317, 1), X_win.shape=(100, 168732), nw=1.0, nh=218.0, c=1, win_x=1, win_y=100, stride_x=1, stride_y=1
+[ 2020-03-21 18:07:45,353][win_utils.get_windows] get_windows_end
+[ 2020-03-21 18:07:45,353][fg_win_layer.fit_transform] [data][win1/1x100,test] bottoms.shape=87x1x317x1,87
+[ 2020-03-21 18:07:45,353][win_utils.get_windows] get_windows_start: X.shape=(87, 1, 317, 1), X_win.shape=(100, 18966), nw=1.0, nh=218.0, c=1, win_x=1, win_y=100, stride_x=1, stride_y=1
+[ 2020-03-21 18:07:45,463][win_utils.get_windows] get_windows_end
+[ 2020-03-21 18:07:54,784][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.train_0.predict)=74.95%
+[ 2020-03-21 18:07:54,784][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.train_0.avg)=77.61%
+[ 2020-03-21 18:08:04,107][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.train_1.predict)=74.34%
+[ 2020-03-21 18:08:04,107][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.train_1.avg)=76.36%
+[ 2020-03-21 18:08:13,691][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.train_2.predict)=72.72%
+[ 2020-03-21 18:08:13,691][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.train_2.avg)=77.82%
+[ 2020-03-21 18:08:13,926][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.train_cv.predict)=74.01%
+[ 2020-03-21 18:08:13,926][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.train_cv.avg)=77.26%
+[ 2020-03-21 18:08:13,926][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.test.predict)=75.06%
+[ 2020-03-21 18:08:13,926][kfold_wrapper.log_eval_metrics] Accuracy(win1/1x100/ets/3_folds.test.avg)=78.16%
+[ 2020-03-21 18:08:13,926][fg_win_layer.fit_transform] [data][win1/1x100,train] tops[0].shape=(774, 2, 218, 1)
+[ 2020-03-21 18:08:13,926][fg_win_layer.fit_transform] [data][win1/1x100,test] tops[0].shape=(87, 2, 218, 1)
+[ 2020-03-21 18:08:13,926][fg_win_layer.fit_transform] [progress][win1/1x100] ti=1/2, top_name=win1/1x100/rf

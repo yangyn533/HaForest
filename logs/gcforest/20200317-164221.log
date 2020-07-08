@@ -1,0 +1,9 @@
+[ 2020-03-17 16:42:21,600][fgnet.fit_transform] X_train.shape=(774, 1, 358, 1), y_train.shape=(774,), X_test.shape=(87, 1, 358, 1), y_test.shape=(87,)
+[ 2020-03-17 16:42:21,601][fg_win_layer.fit_transform] [data][win1/1x100], bottoms=['X', 'y'], tops=['win1/1x100/ets', 'win1/1x100/rf']
+[ 2020-03-17 16:42:21,601][fg_win_layer.fit_transform] [progress][win1/1x100] ti=0/2, top_name=win1/1x100/ets
+[ 2020-03-17 16:42:21,601][fg_win_layer.fit_transform] [data][win1/1x100,train] bottoms.shape=774x1x358x1,774
+[ 2020-03-17 16:42:21,602][win_utils.get_windows] get_windows_start: X.shape=(774, 1, 358, 1), X_win.shape=(80, 215946), nw=1.0, nh=279.0, c=1, win_x=1, win_y=80, stride_x=1, stride_y=1
+[ 2020-03-17 16:42:21,719][win_utils.get_windows] get_windows_end
+[ 2020-03-17 16:42:21,720][fg_win_layer.fit_transform] [data][win1/1x100,test] bottoms.shape=87x1x358x1,87
+[ 2020-03-17 16:42:21,721][win_utils.get_windows] get_windows_start: X.shape=(87, 1, 358, 1), X_win.shape=(80, 24273), nw=1.0, nh=279.0, c=1, win_x=1, win_y=80, stride_x=1, stride_y=1
+[ 2020-03-17 16:42:21,825][win_utils.get_windows] get_windows_end

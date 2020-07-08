@@ -1,0 +1,5 @@
+[ 2020-03-17 10:50:40,897][fgnet.check_net_config] layer_name != top_name, You should check to make sure this is what you want!!! layer_config={'tops': ['concat1/win1/1x100/1x200/1x300'], 'name': 'concat1/win1', 'type': 'FGConcatLayer', 'bottoms': ['win1/1x100/ets', 'win1/1x100/rf', 'win1/1x200/ets', 'win1/1x200/rf', 'win1/1x300/ets', 'win1/1x300/rf']}
+[ 2020-03-17 10:50:40,898][fgnet.fit_transform] X_train.shape=(774, 1, 1, 1), y_train.shape=(774,), X_test.shape=(87, 1, 1, 1), y_test.shape=(87,)
+[ 2020-03-17 10:50:40,898][fg_win_layer.fit_transform] [data][win1/1x100], bottoms=['X', 'y'], tops=['win1/1x100/ets', 'win1/1x100/rf']
+[ 2020-03-17 10:50:40,899][fg_win_layer.fit_transform] [progress][win1/1x100] ti=0/2, top_name=win1/1x100/ets
+[ 2020-03-17 10:50:40,899][fg_win_layer.fit_transform] [data][win1/1x100,train] bottoms.shape=774x1x1x1,774

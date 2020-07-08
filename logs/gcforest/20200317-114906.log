@@ -1,0 +1,10 @@
+[ 2020-03-17 11:49:06,636][fgnet.check_net_config] layer_name != top_name, You should check to make sure this is what you want!!! layer_config={'bottoms': ['win1/1x100/ets', 'win1/1x100/rf', 'win1/1x200/ets', 'win1/1x200/rf', 'win1/1x300/ets', 'win1/1x300/rf'], 'tops': ['concat1/win1/1x100/1x200/1x300'], 'name': 'concat1/win1', 'type': 'FGConcatLayer'}
+[ 2020-03-17 11:49:06,636][fgnet.fit_transform] X_train.shape=(774, 1, 358, 1), y_train.shape=(774,), X_test.shape=(87, 1, 358, 1), y_test.shape=(87,)
+[ 2020-03-17 11:49:06,636][fg_win_layer.fit_transform] [data][win1/1x100], bottoms=['X', 'y'], tops=['win1/1x100/ets', 'win1/1x100/rf']
+[ 2020-03-17 11:49:06,636][fg_win_layer.fit_transform] [progress][win1/1x100] ti=0/2, top_name=win1/1x100/ets
+[ 2020-03-17 11:49:06,636][fg_win_layer.fit_transform] [data][win1/1x100,train] bottoms.shape=774x1x358x1,774
+[ 2020-03-17 11:49:06,636][win_utils.get_windows] get_windows_start: X.shape=(774, 1, 358, 1), X_win.shape=(100, 200466), nw=1.0, nh=259.0, c=1, win_x=1, win_y=100, stride_x=1, stride_y=1
+[ 2020-03-17 11:49:06,770][win_utils.get_windows] get_windows_end
+[ 2020-03-17 11:49:06,770][fg_win_layer.fit_transform] [data][win1/1x100,test] bottoms.shape=87x1x358x1,87
+[ 2020-03-17 11:49:06,770][win_utils.get_windows] get_windows_start: X.shape=(87, 1, 358, 1), X_win.shape=(100, 22533), nw=1.0, nh=259.0, c=1, win_x=1, win_y=100, stride_x=1, stride_y=1
+[ 2020-03-17 11:49:06,879][win_utils.get_windows] get_windows_end

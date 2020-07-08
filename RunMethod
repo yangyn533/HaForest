@@ -1,0 +1,30 @@
+Highly expressive features with Deep Forest 
+Author: Yuning Yang
+Date: June 12th, 2020
+
+Description:
+This tool is using HaForest algorithm to identify haploinsufficient genes
+
+Please follow the following steps to execute the tool:
+
+1. User needs to install Scikit-Learn style API and Python 3.5(v1.1.1)
+   
+2. Please change following paths to suit your system:
+	1) set the program installed path. e.g. 'set execdir = /home/yangyn/Method/'
+	4) set the data path. e.g. 'set datadir = /home/yangyn/Method/data'
+
+3. supported different classifiers
+  1) RandomForestClassifier
+	2) XGBClassifier
+	3) ExtraTreesClassifier
+	4) GradientBoostingClassifier
+	5) AdaBoostClassifier
+	6) LightGBMClassifier
+
+4. The prediction results will be displayed automatically. If you need to save the results, please specify the path yourself.
+   cmd = joblib.dump(gc,'../path')
+
+Thank you and enjoy the tool!
+-Yuning Yang
+
+If you have any suggestions or questions, Please email me at yangyn533@nenu.edu.cn
